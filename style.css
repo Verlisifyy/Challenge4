@@ -1,0 +1,41 @@
+:root {
+    --accent-color: #e2e8f0;
+}
+
+.welcome {
+    color: var(--accent-color);
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+.navbar {
+    background-color: #0f172a;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar a {
+    color: var(--accent-color);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    color: rgb(214, 13, 191);
+}
+body {
+    padding-bottom: 60px;
+    background-color: #0f172a;
+}
+
+.footer {
+    background-color: #1e293b;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--accent-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
