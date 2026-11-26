@@ -28,7 +28,66 @@ body {
     padding-bottom: 60px;
     background-color: #0f172a;
 }
+.PcTool {
+   background-color: #1e293b;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--accent-color);
+}
 
+.pctoolalinea {
+    font-size:small;
+    background-color: #1e293b;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--accent-color);
+}
+.flappytekst {
+    background-color: #1e293b;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--accent-color);
+}
+.flappyAlinea {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--accent-color);
+    box-shadow: 1 4px 6px rgba(0, 0, 0, 0.1);
+}
+.pctoolAlinea {
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 20px;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    border-radius: 8px;
+    color: var(--accent-color);
+    box-shadow: 1 4px 6px rgba(0, 0, 0, 0.1);
+}
+.pcToolimage {
+    width: 300px;
+    float: right;
+    margin-right: 2rem;
+    margin-top: -20px;
+}
+
+.flappyimage {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
 .footer {
     background-color: #1e293b;
     padding: 1rem;
@@ -38,4 +97,39 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.pcContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pcTekst {
+    flex: 2;
+}
+
+.pcFoto {
+    flex: 1;
+}
+
+.pcToolimage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pctoolAlinea {
+    font-size: 1.2em;
+    text-align: left;
+    color: var(--accent-color);
+    margin: 0;
+    padding: 0;
+}
+
+.flappyimage {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
 }
